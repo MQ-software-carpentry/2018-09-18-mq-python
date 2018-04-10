@@ -5,7 +5,7 @@ venue: "Macquare University"        # brief name of host site without address (e
 address: "Manly Room, Level 4, 17 Wally's Walk (C5C), Macquarie University, Sydney, Australia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "-33.773814, 151.112630"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "-33.774715, 151.113321"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "10-11 May 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-05-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -91,6 +91,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  
 </p>
 {% endif %}
 

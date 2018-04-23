@@ -536,11 +536,11 @@ eventbrite: "45179459981"          # optional: alphanumeric key for Eventbrite r
     </p>
 
     <p>
-      We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
+      We will teach Python using <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
       Firefox browsers are all
-      <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
+      <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html#supported-browsers">supported</a>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
